@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>žinau gerą istoriją</title>
+    <meta name="description" content="žmonės:istorijos - tai pasakojimai apie žmones, kuriuos sutinkame kasdien">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "/styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="nav">
+        <div class="container">
+          <ul class="">
+            <li><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+            <li><a href="/pages/zmones.hml">žmonės</a></li>
+            <li><a href="/pages/zemelapis.html">žemėlapis</a></li>
+            <li><a href="/pages/zinau-gera-istorija.html">žinau istoriją</a></li>
+            <li><a href="/pages/apie.html">apie</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="container-content">
+      Jeigu žinai žmogų, turintį istoriją - parašyk mums.<br><br>
+    </div>
+    <!-- IDEA: cia forma -->
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">El. pašto adresas</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">Jūsų el. pašto adresas bus saugomas po 9 užraktais</small>
+  </div>
+    <div class="form-group">
+    <label for="exampleSelect1">Pasirinkite temą</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>Žinau įdomų žmogų</option>
+      <option>Svetainėje pastebėjau klaidą</option>
+      <option>Turiu pasiūlymą</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleTextarea">Žinutės tekstas</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">Įkelti nuotrauką</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">Jeigu turite žmogaus nuotrauką, arba nuotrauką, iliustruojančią istoriją, atsiųskite.</small>
+  </div>
+  <button type="submit" class="btn btn-primary">Siųsti</button>
+</form>
+  </body>
+</html>
